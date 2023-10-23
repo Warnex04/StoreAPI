@@ -20,7 +20,7 @@ These instructions will get you a copy of the project up and running on your loc
 2. **Run Docker Compose:**
    Open PowerShell, navigate to the directory containing the `docker-compose.yml` file using the `cd` command. Once in the directory, run the following command to pull the Docker image and start the Docker containers:
    ```powershell
-   docker-compose up
+   docker-compose --env-file .\env_file.env up
 
 ### Testing the API:
 
@@ -38,7 +38,7 @@ In powershell :
 
 - **Stopping the Containers:**
   ```powershell
-  docker-compose down
+  docker-compose --env-file .\env_file.env down
   ```
 
 
@@ -50,7 +50,7 @@ Download the docker-compose.yml file from the GitHub repository to a directory o
 ## Step 2: Run Docker Compose
 Open a terminal, navigate to the directory containing the docker-compose.yml file using the `cd` command. Once in the directory, run the following command to pull the Docker image and start the Docker containers:
 ```bash
-docker-compose up
+docker-compose --env-file .\env_file.env up
 ```
 
 In Bash :
@@ -67,7 +67,7 @@ In Bash :
   
 - **Stopping the Containers:**
   ```Bash
-  docker-compose down
+  docker-compose --env-file .\env_file.env down
   ```
 
 
