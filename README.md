@@ -15,7 +15,7 @@ These instructions will get you a copy of the project up and running on your loc
 # Windows Instructions:
 
 1. **Download the docker-compose.yml file:**
-   Download the `docker-compose.yml` file from the GitHub repository to a directory on your machine.
+   Download the files from the GitHub repository to a directory on your machine.
 
 2. **Run Docker Compose:**
    Open PowerShell, navigate to the directory containing the `docker-compose.yml` file using the `cd` command. Once in the directory, run the following command to pull the Docker image and start the Docker containers:
@@ -45,7 +45,7 @@ In powershell :
 # Linux Instructions:
 
 ## Step 1: Download the docker-compose.yml file
-Download the docker-compose.yml file from the GitHub repository to a directory on your machine.
+Download the files from the GitHub repository to a directory on your machine.
 
 ## Step 2: Run Docker Compose
 Open a terminal, navigate to the directory containing the docker-compose.yml file using the `cd` command. Once in the directory, run the following command to pull the Docker image and start the Docker containers:
